@@ -30,6 +30,8 @@ public class BinaryOperation_2 {
 			q++;
 			if(q>50)
 				continue;
+			if((q-1)%10==0)
+				System.out.println();
 			System.out.print(""+q+":"+m+o+n+"=");
 			answer(m,n,ov);
 		}
@@ -43,6 +45,8 @@ public class BinaryOperation_2 {
 		else{
 			x=m-n;
 		}
-		System.out.println(x);
+		System.out.print(x);
+		System.out.print("  ");
+		
 	}
 }
