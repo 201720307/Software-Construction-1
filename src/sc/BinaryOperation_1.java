@@ -20,7 +20,7 @@ public class BinaryOperation_1 {
 			q++;
 			if(q>50)
 				continue;
-			System.out.println(""+q+":"+m+o+n+"=");
+			System.out.println(""+q+": "+m+o+n+"=");
 		}
 	}
 }
